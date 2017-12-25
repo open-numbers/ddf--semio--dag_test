@@ -1,0 +1,14 @@
+{
+    "name": "ddf--semio--dag_test",
+    "author": "Gapminder",
+    "description": "A brand new DDF repo",
+    "language": {
+        "name": "English",
+        "id": "en"
+    },
+    "translations": [],
+    "license": "MIT",
+    "title": "testing DAG",
+    "version": "0.0.1",
+    "resources": []
+}

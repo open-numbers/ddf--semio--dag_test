@@ -1,14 +1,58 @@
 {
     "name": "ddf--semio--dag_test",
-    "author": "Gapminder",
-    "description": "A brand new DDF repo",
     "language": {
         "name": "English",
         "id": "en"
     },
-    "translations": [],
+    "author": "Gapminder",
+    "description": "A brand new DDF repo",
     "license": "MIT",
     "title": "testing DAG",
+    "translations": [],
     "version": "0.0.1",
-    "resources": []
+    "created": "2018-05-17T03:29:44.791321+00:00",
+    "resources": [
+        {
+            "path": "ddf--concepts.csv",
+            "name": "ddf--concepts",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "concept_type"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        }
+    ],
+    "ddfSchema": {
+        "concepts": [
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "concept_type",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            }
+        ],
+        "entities": [],
+        "datapoints": []
+    }
 }

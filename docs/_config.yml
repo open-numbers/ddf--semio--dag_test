@@ -1,4 +1,0 @@
----
-data_source: "."
-update_frequency: One-off
-# certificate_url: http://certificates.theodi.org/en/datasets/214564/certificate/badge.js

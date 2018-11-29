@@ -5,7 +5,7 @@
         "name": "English"
     },
     "author": "Jasper Heeffer <jasper@gapminder.org> (http://gapminder.org)",
-    "created": "2018-06-18T07:41:12.537086+00:00",
+    "created": "2018-11-29T10:06:35.409600+00:00",
     "description": "A dummy dataset for showing the DDF dataformat",
     "license": "foo",
     "title": "Gapminder's Dummy Company dataset",
@@ -146,39 +146,6 @@
                     "company",
                     "project"
                 ]
-            }
-        },
-        {
-            "path": "ddf--entities--company--english_speaking_company.csv",
-            "name": "ddf--entities--company--english_speaking_company",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "english_speaking_company"
-                    },
-                    {
-                        "name": "is--english_speaking_company"
-                    },
-                    {
-                        "name": "name"
-                    }
-                ],
-                "primaryKey": "english_speaking_company"
-            }
-        },
-        {
-            "path": "ddf--entities--company--foundation.csv",
-            "name": "ddf--entities--company--foundation",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "company"
-                    },
-                    {
-                        "name": "is--foundation"
-                    }
-                ],
-                "primaryKey": "company"
             }
         },
         {
@@ -351,24 +318,6 @@
             },
             {
                 "primaryKey": [
-                    "english_speaking_company"
-                ],
-                "value": "country",
-                "resources": [
-                    "ddf--entities--company"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "foundation"
-                ],
-                "value": "country",
-                "resources": [
-                    "ddf--entities--company"
-                ]
-            },
-            {
-                "primaryKey": [
                     "company_size"
                 ],
                 "value": "full_name",
@@ -389,85 +338,10 @@
                 "primaryKey": [
                     "company"
                 ],
-                "value": "is--english_speaking_company",
-                "resources": [
-                    "ddf--entities--company--english_speaking_company"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "english_speaking_company"
-                ],
-                "value": "is--english_speaking_company",
-                "resources": [
-                    "ddf--entities--company--english_speaking_company"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "foundation"
-                ],
-                "value": "is--english_speaking_company",
-                "resources": [
-                    "ddf--entities--company--english_speaking_company"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "company"
-                ],
-                "value": "is--foundation",
-                "resources": [
-                    "ddf--entities--company--foundation"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "english_speaking_company"
-                ],
-                "value": "is--foundation",
-                "resources": [
-                    "ddf--entities--company--foundation"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "foundation"
-                ],
-                "value": "is--foundation",
-                "resources": [
-                    "ddf--entities--company--foundation"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "company"
-                ],
                 "value": "name",
                 "resources": [
                     "ddf--entities--company",
-                    "ddf--entities--company--english_speaking_company",
                     "ddf--entities--company-1"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "english_speaking_company"
-                ],
-                "value": "name",
-                "resources": [
-                    "ddf--entities--company",
-                    "ddf--entities--company--english_speaking_company"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "foundation"
-                ],
-                "value": "name",
-                "resources": [
-                    "ddf--entities--company",
-                    "ddf--entities--company--english_speaking_company"
                 ]
             },
             {
@@ -482,24 +356,6 @@
             {
                 "primaryKey": [
                     "company"
-                ],
-                "value": "region",
-                "resources": [
-                    "ddf--entities--company"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "english_speaking_company"
-                ],
-                "value": "region",
-                "resources": [
-                    "ddf--entities--company"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "foundation"
                 ],
                 "value": "region",
                 "resources": [
@@ -530,47 +386,7 @@
             {
                 "primaryKey": [
                     "anno",
-                    "english_speaking_company"
-                ],
-                "value": "company_size",
-                "resources": [
-                    "ddf--datapoints--company_size--by--company--anno"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "anno",
-                    "foundation"
-                ],
-                "value": "company_size",
-                "resources": [
-                    "ddf--datapoints--company_size--by--company--anno"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "anno",
                     "company"
-                ],
-                "value": "company_size_string",
-                "resources": [
-                    "ddf--datapoints--company_size_string--by--company--anno"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "anno",
-                    "english_speaking_company"
-                ],
-                "value": "company_size_string",
-                "resources": [
-                    "ddf--datapoints--company_size_string--by--company--anno"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "anno",
-                    "foundation"
                 ],
                 "value": "company_size_string",
                 "resources": [
@@ -600,69 +416,7 @@
             },
             {
                 "primaryKey": [
-                    "anno",
-                    "english_speaking_company"
-                ],
-                "value": "lines_of_code",
-                "resources": [
-                    "ddf--datapoints--lines_of_code--by--company--anno"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "anno",
-                    "english_speaking_company",
-                    "project"
-                ],
-                "value": "lines_of_code",
-                "resources": [
-                    "ddf--datapoints--lines_of_code--by--company--project--anno"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "anno",
-                    "foundation"
-                ],
-                "value": "lines_of_code",
-                "resources": [
-                    "ddf--datapoints--lines_of_code--by--company--anno"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "anno",
-                    "foundation",
-                    "project"
-                ],
-                "value": "lines_of_code",
-                "resources": [
-                    "ddf--datapoints--lines_of_code--by--company--project--anno"
-                ]
-            },
-            {
-                "primaryKey": [
                     "company",
-                    "project"
-                ],
-                "value": "lines_of_code",
-                "resources": [
-                    "ddf--datapoints--lines_of_code--by--company--project"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "english_speaking_company",
-                    "project"
-                ],
-                "value": "lines_of_code",
-                "resources": [
-                    "ddf--datapoints--lines_of_code--by--company--project"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "foundation",
                     "project"
                 ],
                 "value": "lines_of_code",
@@ -675,26 +429,6 @@
             {
                 "primaryKey": [
                     "company",
-                    "synonym"
-                ],
-                "value": "source",
-                "resources": [
-                    "ddf--synonyms--company"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "foundation",
-                    "synonym"
-                ],
-                "value": "source",
-                "resources": [
-                    "ddf--synonyms--company"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "english_speaking_company",
                     "synonym"
                 ],
                 "value": "source",

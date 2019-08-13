@@ -4,11 +4,11 @@
         "id": "en",
         "name": "English"
     },
-    "author": "Jasper Heeffer <jasper@gapminder.org> (http://gapminder.org)",
-    "created": "2018-11-29T10:16:02.048351+00:00",
-    "description": "A dummy dataset for showing the DDF dataformat",
-    "license": "foo",
     "title": "Gapminder's Dummy Company dataset",
+    "description": "A dummy dataset for showing the DDF dataformat",
+    "author": "Jasper Heeffer <jasper@gapminder.org> (http://gapminder.org)",
+    "license": "foo",
+    "created": "2019-08-13T10:09:13.651972+00:00",
     "translations": [
         {
             "id": "nl-nl",
@@ -22,8 +22,8 @@
     "version": "0.0.2",
     "resources": [
         {
-            "path": "ddf--concepts.csv",
             "name": "ddf--concepts",
+            "path": "ddf--concepts.csv",
             "schema": {
                 "fields": [
                     {
@@ -40,8 +40,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--dps--by--ent--time.csv",
             "name": "ddf--datapoints--dps--by--ent--time",
+            "path": "ddf--datapoints--dps--by--ent--time.csv",
             "schema": {
                 "fields": [
                     {
@@ -61,8 +61,8 @@
             }
         },
         {
-            "path": "ddf--entities--ent.csv",
             "name": "ddf--entities--ent",
+            "path": "ddf--entities--ent.csv",
             "schema": {
                 "fields": [
                     {

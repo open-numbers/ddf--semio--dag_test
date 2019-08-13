@@ -26,7 +26,8 @@ if __name__ == '__main__':
     entities.to_csv('../../ddf--entities--ent.csv', index=False)
 
     datapoints = pd.DataFrame.from_records(
-        [{'ent': 'a', 'time': 1990, 'dps': 1}]
+        [{'ent': 'a', 'time': 1990, 'dps': 1},
+         {'ent': 'a', 'time': 1991, 'dps': 2}]
     )
 
     datapoints.to_csv('../../ddf--datapoints--dps--by--ent--time.csv', index=False)

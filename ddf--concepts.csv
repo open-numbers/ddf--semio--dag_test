@@ -1,5 +1,5 @@
-concept,concept_type,name
-name,string,Name
-dps,measure,datapoints
+concept,name,concept_type
+name,Name,string
+dps,datapoints,measure
 time,time,time
-ent,entity_domain,entity
+ent,entity,entity_domain

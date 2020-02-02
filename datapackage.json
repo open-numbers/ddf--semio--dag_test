@@ -8,7 +8,7 @@
     "description": "A dummy dataset for showing the DDF dataformat",
     "author": "Jasper Heeffer <jasper@gapminder.org> (http://gapminder.org)",
     "license": "foo",
-    "created": "2019-08-13T10:09:13.651972+00:00",
+    "created": "2020-02-02T01:43:46.047076+00:00",
     "translations": [
         {
             "id": "nl-nl",
@@ -30,10 +30,10 @@
                         "name": "concept"
                     },
                     {
-                        "name": "concept_type"
+                        "name": "name"
                     },
                     {
-                        "name": "name"
+                        "name": "concept_type"
                     }
                 ],
                 "primaryKey": "concept"

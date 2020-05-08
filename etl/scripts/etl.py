@@ -14,7 +14,7 @@ if __name__ == '__main__':
           'concept_type': 'measure'},
          {'concept': 'time',
           'name': 'time',
-          'concept_type': 'string'},
+          'concept_type': 'time'},
          {'concept': 'ent',
           'name': 'entity',
           'concept_type': 'entity_domain'}])

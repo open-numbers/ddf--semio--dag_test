@@ -15,7 +15,7 @@ if __name__ == '__main__':
          {'concept': 'time',
           'name': 'time',
           'concept_type': 'time'},
-         {'concept': 'ent',
+         {'concept': 'entx',
           'name': 'entity',
           'concept_type': 'entity_domain'}])
     concepts.to_csv('../../ddf--concepts.csv', index=False)

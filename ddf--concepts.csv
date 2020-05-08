@@ -2,4 +2,4 @@ concept,name,concept_type
 name,Name_2,string
 dps,datapoints,measure
 time,time,time
-ent,entity,entity_domain
+entx,entity,entity_domain

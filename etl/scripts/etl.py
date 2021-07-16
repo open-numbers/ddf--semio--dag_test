@@ -7,9 +7,9 @@ if __name__ == '__main__':
 
     concepts = pd.DataFrame.from_records(
         [{'concept': 'name',
-          'name': 'Name_2',
+          'name': 'Name',
           'concept_type': 'string'},
-         {'concept': 'dps_e',
+         {'concept': 'dps',
           'name': 'datapoints',
           'concept_type': 'measure'},
          {'concept': 'time',

@@ -7,7 +7,7 @@ if __name__ == '__main__':
 
     concepts = pd.DataFrame.from_records(
         [{'concept': 'name',
-          'name': 'Name_2',
+          'name': 'Name',
           'concept_type': 'string'},
          {'concept': 'dps',
           'name': 'datapoints',
@@ -27,7 +27,7 @@ if __name__ == '__main__':
 
     datapoints = pd.DataFrame.from_records(
         [{'ent': 'a', 'time': 1990, 'dps': 1},
-         {'ent': 'a', 'time': 1991, 'dps': 2}]
+         {'ent': 'a', 'time': 1991, 'dps': 4}]
     )
 
     datapoints.to_csv('../../ddf--datapoints--dps--by--ent--time.csv', index=False)

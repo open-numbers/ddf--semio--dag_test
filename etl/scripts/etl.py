@@ -9,7 +9,7 @@ if __name__ == '__main__':
         [{'concept': 'name',
           'name': 'Name_2',
           'concept_type': 'string'},
-         {'concept': 'dps',
+         {'concept': 'dps_e',
           'name': 'datapoints',
           'concept_type': 'measure'},
          {'concept': 'time',
